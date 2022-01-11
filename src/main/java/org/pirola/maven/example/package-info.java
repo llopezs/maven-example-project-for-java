@@ -1,6 +1,5 @@
 /*
  * Maven test example.
- * Copyright (C) 2015 Fabio Pirola <fabio@pirola.org>
 
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -17,11 +16,11 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-
 /**
  * Provides the classes necessary to
  * execute Maven example project.
- * @author Fabio Pirola <fabio@pirola.org>
+ * @author Luis
  * @since 2015-07-15
  */
+
 package org.pirola.maven.example;

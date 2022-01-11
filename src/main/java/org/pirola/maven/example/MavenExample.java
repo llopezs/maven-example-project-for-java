@@ -4,7 +4,6 @@ import java.io.IOException;
 
 /*
  * Maven test example.
- * Copyright (C) 2015 Fabio Pirola <fabio@pirola.org>
 
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -21,13 +20,13 @@ import java.io.IOException;
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA  02110-1301, USA.
  */
-
 /**
  * Test main class.
- * @author Fabio Pirola <fabio@pirola.org>
+ * @author Luis
  * @version 1.0
  * @since 2015-07-15
  */
+
 public final class MavenExample {
     /** Class name. */
     private static final String CLASS_NAME = MavenExample.class.getName();
@@ -51,6 +50,13 @@ public final class MavenExample {
         System.out.println("Begin "
             + ReadManifest.getBuildInfo(CLASS_NAME));
         System.out.println(getGreeting());
+		System.out.println(getGreeting());
+		System.out.println(getGreeting());
+		System.out.println(getGreeting());
+		System.out.println(getGreeting());
+		System.out.println(getGreeting());
+		System.out.println(getGreeting());
+		System.out.println(getGreeting());
         ReadManifest.printAllAttributes();
     }
 

@@ -97,6 +97,14 @@
 		</resources>
 
 		<plugins>
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>findbugs-maven-plugin</artifactId>
+          <version>3.5.4</version>
+          <configuration>
+            <failOnError>${maven.findbugs.failure.strict}</failOnError>
+          </configuration>
+        </plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -149,29 +157,6 @@
 							<violationSeverity>info</violationSeverity>
 							<!-- If you have some class to exclude use "exclude" node -->
 						</configuration>
-						<goals>
-							<goal>check</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>findbugs-maven-plugin</artifactId>
-				<version>3.0.3</version>
-				<configuration>
-					<!-- Max level of analisys and error reporting. -->
-					<effort>Max</effort>
-					<!-- Build should fail upon a violation. -->
-					<failOnError>true</failOnError>
-					<!-- Low level for threshold. -->
-					<threshold>Low</threshold>
-				</configuration>
-				<executions>
-					<!-- Ensures that FindBugs inspects source code when project is compiled. -->
-					<execution>
-						<id>analyze-compile</id>
-						<phase>verify</phase>
 						<goals>
 							<goal>check</goal>
 						</goals>
