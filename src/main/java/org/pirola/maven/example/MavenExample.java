@@ -47,16 +47,9 @@ public final class MavenExample {
      * @throws IOException IO error occurred (read MANIFEST file).
      */
     public static void main(final String[] args) throws IOException {
-        System.out.println("Begin "
+        logger.log("Begin "
             + ReadManifest.getBuildInfo(CLASS_NAME));
-        System.out.println(getGreeting());
-		System.out.println(getGreeting());
-		System.out.println(getGreeting());
-		System.out.println(getGreeting());
-		System.out.println(getGreeting());
-		System.out.println(getGreeting());
-		System.out.println(getGreeting());
-		System.out.println(getGreeting());
+        logger.log(getGreeting());
         ReadManifest.printAllAttributes();
     }
 

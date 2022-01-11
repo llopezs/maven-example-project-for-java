@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="D:\DevOps\git\maven-example-project-for-java\src\main\java\org\pirola\maven\example\MavenExample.java">
+</file>
+<file name="D:\DevOps\git\maven-example-project-for-java\src\main\java\org\pirola\maven\example\package-info.java">
+</file>
+<file name="D:\DevOps\git\maven-example-project-for-java\src\main\java\org\pirola\maven\example\ReadManifest.java">
+</file>
+</checkstyle>

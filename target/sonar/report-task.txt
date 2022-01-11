@@ -1,0 +1,6 @@
+projectKey=SonarQube-S7M3
+serverUrl=http://038b-167-250-55-245.ngrok.io
+serverVersion=9.2.4.50792
+dashboardUrl=http://038b-167-250-55-245.ngrok.io/dashboard?id=SonarQube-S7M3
+ceTaskId=AX5G5sliQvBDhBJTdlGZ
+ceTaskUrl=http://038b-167-250-55-245.ngrok.io/api/ce/task?id=AX5G5sliQvBDhBJTdlGZ
